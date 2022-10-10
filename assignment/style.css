@@ -7,21 +7,22 @@ header, footer {
     text-align: center;
     background-color: rgba(120, 80, 52, 0.964);
 }
-main{
-    margin: auto;
-    text-align: center;
-    padding: 20px 20px;
-}
 div {
-    border: 8px solid rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
     margin: auto;
 }
 /* Align the h1 containing your name in the center of the header*/
-h1{
+h1 {
     text-align: center;
+}
+h2 {
+    text-align: left;
 }
 /* Change the font-family of your list */
 li {
+    margin: auto;
+    text-align: left;
+    padding: 2px 2px;
     font-family: 'Times New Roman', Times, serif;
 }
 /* Make your p tag a different color and italic */
@@ -29,6 +30,8 @@ p {
     color: #000000;
 }
 /* Put a border around your image */
-.div img {
-    border: 1px solid rebeccapurple;
+img {
+    border: 8px solid gold;
+    width: 15%;
+    height: auto;
 }
