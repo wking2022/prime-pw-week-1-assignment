@@ -1,37 +1,52 @@
 /* Give your page a fun background color */
 html {
-    background-color: tan;
+    background-color: burlywood;
+    font-family: Georgia, Times, 'Times New Roman', serif;
 }
 /* Make the header and footer a different color from the background */
-header, footer {
-    text-align: center;
-    background-color: rgba(120, 80, 52, 0.964);
-}
-div {
-    border: 2px solid rgb(255, 255, 255);
-    margin: auto;
-}
 /* Align the h1 containing your name in the center of the header*/
-h1 {
+.head {
+    border: 2%;
+    padding: 2px;
+    margin: 2%;
+    text-align: center;
+    background-color: grey;
+}
+.foot {
+    text-align: center;
+    background-color: grey;
+    margin: 2%;
+    border: 2px;
+    padding: 2px 2px;
     text-align: center;
 }
-h2 {
-    text-align: left;
-}
-/* Change the font-family of your list */
-li {
-    margin: auto;
-    text-align: left;
-    padding: 2px 2px;
-    font-family: 'Times New Roman', Times, serif;
-}
-/* Make your p tag a different color and italic */
-p {
-    color: #000000;
+.facts {
+    font-size: xx-large;
+    text-align: center;
 }
 /* Put a border around your image */
 img {
-    border: 8px solid gold;
-    width: 15%;
-    height: auto;
+    background-color: brown;
+    padding: 1%;
+    border: 80% brown;
+    margin: auto;
+    width: 32%;
+    
+}
+div {
+    text-align: center;
+}
+
+/* Change the font-family of your list */
+.unlist {
+    text-align: center;
+    border: 2%;
+    padding: 2%;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+/* Make your p tag a different color and italic */
+p {
+    font-style: italic;
+    color: brown;
+    text-align: center;
 }
